@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies</title>
+    <link rel="stylesheet" href="Home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman&family=Homenaje&family=Cormorant:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Image/Frame 1.png">
+    <!--  Kode unik untuk project ini adalah EP : Erwin Perry -->
+</head>
+
+<body>
+    <img id="Dummy">
+    <header>
+        <nav>
+            <div id="Left-Nav">
+                <p class="JudulEP-content"> Reach Us </p>
+                <div class="Horizontal-LineEP" id="Nav-Line"></div>
+                <div class="flexRow" id="nav-IconEP">
+                    <a class="nostyle-EP" href="https://www.instagram.com/"> <img class="icon-EP " src="https://github.com/perry623/FoodiesImages/blob/main/Icons/instagram.png?raw=true" ></a>
+                    <a class="nostyle-EP" href="https://www.youtube.com/"> <img class="icon-EP" src="https://github.com/perry623/FoodiesImages/blob/main/Icons/youtube.png?raw=true"></a>
+                    <a class="nostyle-EP" href="https://www.twitter.com/"> <img class="icon-EP " src="https://github.com/perry623/FoodiesImages/blob/main/Icons/Twitter.png?raw=true" ></a>
+                    <a class="nostyle-EP" href="https://www.whatsapp.com/"> <img class="icon-EP " src="https://github.com/perry623/FoodiesImages/blob/main/Icons/Whatsapp.png?raw=true" ></a>
+                </div>
+            </div>
+
+            <div id="Mid-Nav">
+                <div>
+                    <img src="https://raw.githubusercontent.com/perry623/FoodiesImages/e05d7a7d958195ce7aaa4c4a81be42e85f889095/FOODIES.svg">
+                </div>
+                <div class="flexRow JudulEP-content" id="navPage-EP">
+                    <a id="pointed" href="Home.html">Home</a>
+                    <a class="nostyle-EP" href="Booking.html">Booking</a>
+                    <a class="nostyle-EP" href="Academy.html">Academy</a>
+                    <a class="nostyle-EP" href="AboutUs.html">About Us</a>
+                    <a class="nostyle-EP" href="ContactUs.html">Contact Us</a>
+                </div>
+            </div>
+
+            <div id="Right-Nav">
+                <div class="flexRow" id="nav-IconEP">
+                    <a class="nostyle-EP" > <img  onclick="copyWebsite()" id="copyThisWeb" class="icon-EP " src="https://raw.githubusercontent.com/perry623/FoodiesImages/b1f125c8f486b877861bdbfde5f39a6595f9088c/Icons/share.svg" ></a>
+                    <a class="nostyle-EP"> <img onclick="lockedFeature()" class="icon-EP" src="https://raw.githubusercontent.com/perry623/FoodiesImages/b1f125c8f486b877861bdbfde5f39a6595f9088c/Icons/mail.svg"></a>
+                    <a class="nostyle-EP"> <img onclick="lockedFeature() " class="icon-EP " src="https://raw.githubusercontent.com/perry623/FoodiesImages/b1f125c8f486b877861bdbfde5f39a6595f9088c/Icons/profile.svg" ></a>
+                </div>
+            </div>
+            <div id="Drop-Nav">
+                <img id="Nav-menu" src="https://raw.githubusercontent.com/perry623/FoodiesImages/04a1cb79db81991d93041944fc6105ba19663182/Icons/menu-kecil.svg" alt="menu" onclick="ResponsiveNav(-1)">
+            </div>
+        </nav>
+        <div class="Header-CountainerEP">
+            <img src="https://github.com/perry623/FoodiesImages/blob/main/Home/Header%201.png?raw=true" id="aestetic">
+            
+            <div class="Boxjudul-Header"> 
+                <p class="JudulEP-sub" id="SubUtama"> Finest Quality </p>
+                <div class="JudulEP-header" id="JudulUtama"> FOOD AND BEVERAGE </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ======= Course ======= Course ======= Course =======   --> 
+        <div class="Countainer-MenuEP flexColumn">
+            <div class="Boxjudul-Menu"> 
+                <p> Introducing our </p>
+                <div class="JudulEP-content"> Finest Course </div>
+            </div>
+
+            <div class="Menu-wrapperEP"> 
+                <div class="flexColumn">
+                    <ul class="Menu-OptionEP flexRow">
+                        <li onclick="judulDish(0)" id="tipe0" class="JudulEP-content">Lunch Course</li>
+                        <li class="JudulEP-content pointed" onclick="judulDish(1)" id="tipe1">Dinner Course</li>
+                        <li onclick="judulDish(2)" id="tipe2" class="JudulEP-content">Tasting Course</li>
+                        <li onclick="judulDish(3)" id="tipe3" class="JudulEP-content">Du Jour Course</li>
+                        <li onclick="judulDish(4)" id="tipe4" class="JudulEP-content">A La Carte</li>
+                    </ul> 
+                    
+                    <div class="Horizontal-LineEP" id="line"></div>
+
+                    <div class="Menu-BoxEP flexRow" id="kotak-dish">
+                        <div id="gambar"> 
+                            <img id="gambar-dish0" src="https://github.com/perry623/FoodiesImages/blob/main/Home/Lunch%20Course/Lunch%20Course%20Pic.png?raw=true">
+                            <img id="gambar-dish1" src="https://github.com/perry623/FoodiesImages/blob/main/Home/Dinner%20Course/Dinner%20Course%20Pic.png?raw=true">
+                            <img id="gambar-dish2" src="https://github.com/perry623/FoodiesImages/blob/main/Home/Tasting%20Food/Tasting%20Course%20Pic.png?raw=true">
+                            <img id="gambar-dish3" src="https://github.com/perry623/FoodiesImages/blob/main/Home/Do%20jour%20Food/Do%20Jour%20Course%20Pic.png?raw=true">
+                            <img id="gambar-dish4" src="https://github.com/perry623/FoodiesImages/blob/main/Home/A%20La%20Carte/A%20La%20Carte%20Pic.png?raw=true">
+                        </div>
+                        <div id="info-countainer">
+                            <div class="flexRow" id="info-title">
+                                <div id="title">
+                                    <div id="judul-dish" class="JudulEP-content"></div>
+                                    <div id="subjudul-dish" class="JudulEP-subContent"></div>
+                                </div>
+                                <div id="Short-Info">
+                                    <div class="JudulEP-content none" id="kepala-dish"></div>
+                                    <p class="JudulEP-content" id="harga-dish"></p>
+                                </div>
+                            </div>
+                            <div id="desc-dish"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ======= video ======= video ======= video =======   -->
+        <div class="Countainer-VideoEP">
+            <div id="parallaxEP"> </div>
+            <div id="Vid-IconEP">
+                <div class="JudulEP-subContent" >
+                    <img id="Ingredients" class="icon-ContentEP iconJump" src="https://raw.githubusercontent.com/perry623/FoodiesImages/e782fc73dc37476bf57e20c1f21bd3bfdb48e0b8/Icons/Steak.svg">
+                    <p>Pristine <br> Ingredients</p> 
+                </div>
+                <div class="JudulEP-subContent">
+                    <img id="Chef" class="icon-ContentEP iconJump" src="https://raw.githubusercontent.com/perry623/FoodiesImages/e782fc73dc37476bf57e20c1f21bd3bfdb48e0b8/Icons/Chef%20Hat.svg" >
+                    <p>Top Class Chef</p> 
+                </div>
+                <div class="JudulEP-subContent">
+                    <img id="Place" class="icon-ContentEP iconJump" src="https://raw.githubusercontent.com/perry623/FoodiesImages/e782fc73dc37476bf57e20c1f21bd3bfdb48e0b8/Icons/Glass%20Cheer.svg" >
+                    <p>Exclusive Place</p> 
+                </div>
+                <div class="JudulEP-subContent">
+                    <img id="Certificate" class="icon-ContentEP iconJump" src="https://raw.githubusercontent.com/perry623/FoodiesImages/838b2976e19466709686da1eda0bd77903908796/Icons/International%20Standart.svg">
+                    <p>International <br> Standard</p> 
+                </div>      
+            </div>
+            <div id="Wrapper">
+                <div id="left-sideEP">
+                    <div class="Boxjudul-Video">
+                        <p class="JudulEP-sub">serve you</p>
+                        <div class="JudulEP-content" id="judul">The Best Dining Experience</div>
+                    </div>
+                    <div class="Horizontal-LineEP" id="line"></div>
+                    <div id="box-Book-Button">
+                        <a href="Booking.html">
+                            <button id="Book-Button" class="JudulEP-content" onmouseover="showPlus()" onmouseout="hidePlus()"> Book a Table</button>
+                        </a>
+                    </div>
+                </div>
+                <div id="right-sideEP">
+                    <iframe src="https://www.youtube.com/embed/n322Sh73YnI" title="YouTube video Foodies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======= Academy ======= Academy ======= Academy =======   -->
+        <div class="Countainer-AcademyEP">
+            <div id="left-sideEP" onmouseenter="zoomIn('bekground')" onmouseleave="zoomIn('bekground')">
+                <div id="bekground"> </div>
+                <div>
+                    <div id="Small-Box">
+                        <p id="atas">OVER</p>
+                        <p id="tengah">10+</p>
+                        <p id="bawah">CLASSES</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div id="right-sideEP" class="flexColumn">
+                <div class="Boxjudul-Academy"> 
+                    <p class="JudulEP-sub"> learn  from  the  best </p>
+                    <div class="JudulEP-content"> Cooking Academy </div>
+                </div>
+
+                <div id="icon-Academy" class="flexRow">
+                    <div class="JudulEP-subContent flexColumn">
+                        <img id="Top-Class" class="icon-AcademyEP" src="https://raw.githubusercontent.com/perry623/FoodiesImages/e6dd7c3f0842d9df7ade890b17cc027302deaeb1/Icons/Top%20Class.svg">
+                        <p>Top Class <br> Educator</p> 
+                    </div>  
+                    <div class="JudulEP-subContent flexColumn">
+                        <img id="Guide" class="icon-AcademyEP" src="https://github.com/perry623/FoodiesImages/blob/main/Icons/recipe-book.png?raw=true" >
+                        <p>Complete <br> Guide</p> 
+                    </div>
+                    <div class="JudulEP-subContent flexColumn">
+                        <img id="Certification" class="icon-AcademyEP" src="https://raw.githubusercontent.com/perry623/FoodiesImages/e6dd7c3f0842d9df7ade890b17cc027302deaeb1/Icons/Certificate.svg" >
+                        <p>International <br> Certification</p> 
+                    </div>
+                </div>
+
+                <div id="Description-Academy">
+                    <p class="JudulEP-subContent">we are not just selling recipe, neither tutoring </p>
+                    <div class="JudulEP-subContent"> <span style="color: black;"> We're </span> <span class="Orange-text"> Educating  </span></div>
+                </div>
+
+                <div id="Button">
+                    <a href="Academy.html">
+                    <button id="Academy-Button" class="JudulEP-content" onmouseenter="showArrow()" onmouseleave="showArrow()">Go To Academy</button>
+                    </a>
+                    <img id="Academy-Arrow" class="" src="https://raw.githubusercontent.com/perry623/FoodiesImages/main/Icons/RightArrow.png">
+                </div>
+            </div>
+        </div>
+        <!-- ======= About US ======= About US ======= About US =======   -->
+        <div class="Countainer-AboutusEP">
+            <div class="Boxjudul-About"> 
+                <p class="JudulEP-sub"> know more, love more </p>
+                <div class="JudulEP-content"> About Us </div>
+            </div>
+            <div id="C-Wrapper">
+                <div id="Carousel">
+                    <a href="AboutUs.html" id="C1" class=""> </a>
+                    <a href="AboutUs.html" id="C2" class=""> </a>
+                    <a href="AboutUs.html" id="C3" class=""> </a>
+                    <a href="AboutUs.html" id="C4" class=""> </a>
+                    <a href="AboutUs.html" id="C5" class=""> </a>
+                </div>
+            </div>
+        </div>
+    </main>
+        <!-- ======= footer ======= footer ======= footer =======   -->
+    <footer>
+        <div class="Countainer-FooterEP" >
+            <div id="left-sideEP">
+                <img src="https://raw.githubusercontent.com/perry623/FoodiesImages/d04e43d2148b7005edd37d9f8bddd0e0f5759ffe/FOODIES-Footer.svg">
+                <div class="flexRow" id="footer-IconEP">
+                    <a class="nostyle-EP" href="https://www.instagram.com/"> <img class="icon-EP " src="https://github.com/perry623/FoodiesImages/blob/main/Icons/instagram.png?raw=true" ></a>
+                    <a class="nostyle-EP" href="https://www.youtube.com/"> <img class="icon-EP" src="https://github.com/perry623/FoodiesImages/blob/main/Icons/youtube.png?raw=true"></a>
+                    <a class="nostyle-EP" href="https://www.twitter.com/"> <img class="icon-EP " src="https://github.com/perry623/FoodiesImages/blob/main/Icons/Twitter.png?raw=true" ></a>
+                    <a class="nostyle-EP" href="https://www.whatsapp.com/"> <img class="icon-EP " src="https://github.com/perry623/FoodiesImages/blob/main/Icons/Whatsapp.png?raw=true" ></a>
+                </div>
+            </div>
+
+            <div id="right-sideEP" class="flexColumn">
+                    <div class="flexRow" id="footer-info">
+                        <div class="flexColumn">
+                            <div class="JudulEP-header" id="font-footer"> Contact <br> </div>
+                            <p class="JudulEP-header" id="desc-footer"> Phone : (021) 150088000 <br> Email  : FoodiesEP@gmail.com</p>
+                        </div>
+                        <div class="flexColumn">
+                            <div class="JudulEP-header" id="font-footer"> Hours <br> </div>
+                            <p class="JudulEP-header" id="desc-footer"> Weekday <br>( 09.00 A.M - 21.00 P.M )<br> Weekend <br> ( 08.00 A.M - 24.00 P.M )</p>
+                        </div>
+                        <div class="flexColumn">
+                            <div class="JudulEP-header" id="font-footer"> Location <br> </div>
+                            <p class="JudulEP-header" id="desc-footer"> Sentul City, Jl. Pakuan No.3, Sumur Batu, Babakan Madang, Bogor Regency, West Java 16810</p>
+                        </div>
+                    </div>
+                <div class="JudulEP-header" id="copyright">
+                    Copyright @ Foodies Restaurant. All Right Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="Home.js"></script>
+</html>
